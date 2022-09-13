@@ -1,0 +1,39 @@
+.title{
+    margin-top: 4px;
+}
+.list-todo-container{
+    button{
+        cursor: pointer;
+    }
+    .add-todo{
+        margin: 22px auto;
+        width: 400px;
+        display: inline-block;
+        .add{
+            margin: 4px 10px;
+        }
+
+    }
+    .list-todo-content{
+        width: 600px;
+        margin: 0 auto;
+        text-align: left;
+
+        .todo-child{
+            &:first-child{
+                border-top: 1px solid grey;
+            }
+            height: 40px ;
+            border-bottom: 1px solid grey;
+            margin: 10px;
+
+            .edit{
+                margin: 0 10px;
+                float: right;
+            }
+            .delete{
+                float: right;
+            }
+        }
+    }
+}
